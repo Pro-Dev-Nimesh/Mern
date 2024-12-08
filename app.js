@@ -15,6 +15,13 @@ app.get('/api', (req, res)=>{
     res.jason({message: 'Welcome to the API'});
 });
 
+
+// API route
+app.get('/api', (req, res)=>{
+    res.jason({message: 'Welcome to the API 2 New Branch'});
+});
+
+
 // Example of a POST rout
 app.post('/api/data',(req, res)=>{
     const data = req.body;
